@@ -2,4 +2,5 @@ The purpose of these scripts is to use the GitHub API to gather dependencies fro
 
 variables.py - You will have to insert filepaths that match your system, as well as your own GitHub access token.
 
-In order to run and install all dependencies, you will CD to the folder where this is installed and run "npm run script"
+In order to run and install all dependencies, you will CD to the folder where this is installed and run:
+"npm run script"
