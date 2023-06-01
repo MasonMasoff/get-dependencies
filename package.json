@@ -1,0 +1,21 @@
+{
+    "name": "get-dependencies",
+    "version": "1.0.0",
+    "description": "Uses Python to gather all repo dependencies in a given GH organization. Data is presented to an XLSX file.",
+    "dependencies": {
+      "requests": "^2.93.0",
+      "csv": "^5.5.0",
+      "variables": "^1.0.0",
+      "tqdm": "^4.62.3",
+      "pandas": "^1.3.0"
+    },
+    "scripts": {
+      "script": "python3 all_in_one.py"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MasonMasoff/get-dependencies"
+    },
+    "author": "Mason Garcia"
+  }
+  
