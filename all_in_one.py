@@ -1,5 +1,4 @@
 import subprocess
 
-# Runs both modules in order to gather repos and convert list to excel
-subprocess.run(["python3", "get_repo_list.py"])
-subprocess.run(["python3", "convert_csv_xlsx.py"])
+subprocess.run(["python3", "mod_get_repo.py"])
+subprocess.run(["python3", "mod_csv_xlsx.py"])
