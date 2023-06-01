@@ -15,3 +15,5 @@ xlsx_file_path = variables.xlsx_file_path
 
 # Convert the CSV file to XLSX
 convert_csv_to_xlsx(csv_file_path, xlsx_file_path)
+
+print("CSV successfully converted.")
