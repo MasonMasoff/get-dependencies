@@ -1,0 +1,10 @@
+The purpose of these scripts is to use the GitHub API to gather dependencies from GitHub repos in a specified organization. The data is presented as an excel sheet. If there is no CSV file to overwrite, one will be created automatically. 
+
+variables.py - You will have to insert filepaths that match your system, as well as your own GitHub access token.
+
+There are a few libraries that this dependends on such as:
+- pandas
+- requests
+- tqdm
+
+All of the above can be installed with a package manager such as pip
